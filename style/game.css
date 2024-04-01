@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+@font-face {
+    font-family: 'Chakra_Petch'; 
+    src: url('../font/Chakra_Petch/ChakraPetch-Medium.ttf') format('truetype'); 
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    touch-action:manipulation;
+}
+
+.detanator{
+    width: 25rem;
+    height: 30rem;
+    background-color:rgb(47, 54, 34) ;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 4.5rem;
+    border-right: 10px solid black ;
+    border-bottom: 10px solid black;
+    gap: 1rem;
+}
+    
+
+.screen{
+    height: 3rem;
+    width: 13rem;
+    border: 5px solid rgb(32, 32, 32);
+    border-radius: 5px;
+    background-color:darkgoldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Chakra_Petch, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    gap: 1rem;
+    justify-content: center;
+    background-color:currentColor;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btn{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid black;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+}
+
+#btn-null{
+    justify-content: center;
+}
+
+
+.left-part{
+    background-color: rgb(50, 53, 45);
+    width: 2rem;
+    height:8rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 7rem;
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+}
+
+.btn-on{
+    width: 1rem;
+    height: 1rem;
+    background-color: brown;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.ribbon{
+    width: 30rem;
+    height: 3rem;
+    background-color: gray;
+    background: linear-gradient(to left, black 1%, gray);
+
+}
+
+#ribbon-2{
+    width: 24.3rem;
+    border-bottom-left-radius: 10px;
+}
+.dentanator-contanier{
+    display: flex;
+    overflow: hidden;
+}
+
+.timer{
+    font-size: 4rem;
+    color:brown;
+    font-family: monospace;
+}
